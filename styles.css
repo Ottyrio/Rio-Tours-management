@@ -1,0 +1,218 @@
+/* Reset */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.0em;
+}
+* {
+    box-sizing: border-box;
+}
+
+ul { 
+    list-style: none;  
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+
+}
+
+p {
+    margin: 20px 0px;
+    text-align: center;
+    display: block;
+}
+
+utility class
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: #f7c08a;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    background: #333;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;   
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color:  #333;
+    float: left;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+
+.navbar {
+    background-color: #14213d;
+    overflow: auto;
+    height: 150px;
+    position: sticky;  
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+.navbar ul{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    padding: 30px;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    background: #444;
+    color: #f7c08a;
+}
+
+/* * {
+    box-sizing: border-box;
+  } */
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 010px;
+    box-sizing: border-box;
+}
+.row {
+    background-color: #79addc;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+  }
+  /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+}
+
+.box-box{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* showcase */
+.show-case {
+    
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+.show-case{
+    background-repeat: no-repeat;
+    background-image: url(/img/hotel-4.jpg);
+    background-size: 100%;
+    width: auto;
+    height: 750px;
+    
+}
+
+.lead{
+    font-size: 20px;
+    display: inline;
+    text-align: left;
+}
+.infomation{
+    background-color: #79addc;
+}
+
+.info-content{
+    color: aqua;
+    display: block;
+}
+
+.deals-offers{
+    width: 50%;
+    border: 3px solid #73AD21;
+    align-items: start;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* footer */
+#main-footer{
+    background: #444;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 10px;
+}
